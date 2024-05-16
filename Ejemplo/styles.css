@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .content {
+    padding: 16px;
+    margin-top: 50px; /* Añade un margen superior para evitar que el contenido se solape con la barra de navegación */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed; /* Fija el pie de página en la parte inferior */
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
